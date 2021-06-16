@@ -42,6 +42,7 @@ requirements:
     - cfitsio
     - metadetect
     - importlib_metadata
+    - hilbertcurve
 
 test:
   imports:
