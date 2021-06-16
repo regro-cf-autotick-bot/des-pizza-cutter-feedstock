@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/beckermr/pizza-cutter/archive/{{ version }}.tar.gz
-  sha256: a2f842436bc1089874f4bd2a340ed2d943338536b1b17964ea124b9f22525a4f
+  sha256: 653f0c633cee9701cbf0ce1e239544bd6ba88ffdcaf958a252556d0587dc1188
 
 build:
   number: 1
