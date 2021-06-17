@@ -1,5 +1,5 @@
 {% set name = "des-pizza-cutter" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/beckermr/pizza-cutter/archive/{{ version }}.tar.gz
-  sha256: 653f0c633cee9701cbf0ce1e239544bd6ba88ffdcaf958a252556d0587dc1188
+  sha256: 3e475d672bdffeda47cd42a1a435fb79c49bcfe40c32334f6833401d7344a03b
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -34,15 +34,11 @@ requirements:
     - ngmix
     - click
     - esutil
-    - sep
-    - joblib
-    - jinja2
-    - tqdm
     - piff
     - cfitsio
-    - metadetect
     - importlib_metadata
     - hilbertcurve
+    - pixmappy
 
 test:
   imports:
