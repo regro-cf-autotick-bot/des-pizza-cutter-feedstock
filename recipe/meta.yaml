@@ -43,6 +43,7 @@ requirements:
     - metadetect
     - importlib_metadata
     - hilbertcurve
+    - pixmappy
 
 test:
   imports:
