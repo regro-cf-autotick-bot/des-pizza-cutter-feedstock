@@ -18,7 +18,7 @@ requirements:
   host:
     - python
     - pip
-    - setuptools_scm <6
+    - setuptools_scm <6.1
     - setuptools_scm_git_archive
   run:
     - python
