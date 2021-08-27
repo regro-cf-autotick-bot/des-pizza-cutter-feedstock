@@ -1,5 +1,5 @@
 {% set name = "des-pizza-cutter" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/beckermr/pizza-cutter/archive/{{ version }}.tar.gz
-  sha256: fa9c564f91ee3f21d1c67578cf7ae2cb6b2b19d042577fec0d9c0c3683147074
+  sha256: f10a7d8f45e263477128f94d9bf8e0e1277b7168d2fe3007f739aaee56dfaabb
 
 build:
   number: 0
@@ -18,7 +18,7 @@ requirements:
   host:
     - python
     - pip
-    - setuptools_scm
+    - setuptools_scm <6.1
     - setuptools_scm_git_archive
   run:
     - python
