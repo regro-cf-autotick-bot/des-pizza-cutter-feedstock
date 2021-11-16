@@ -1,5 +1,5 @@
 {% set name = "des-pizza-cutter" %}
-{% set version = "0.4.8" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/beckermr/pizza-cutter/archive/{{ version }}.tar.gz
-  sha256: 476e679bbf529bd96d2d7b2851e9f2fa7968168ef771a92dd38c13796158186b
+  sha256: eee79ca566cce82d17fb2b47f545c5936436843ec5232661078e4d30e81afd99
 
 build:
   number: 0
@@ -30,6 +30,7 @@ requirements:
     - numba
     - des-easyaccess
     - des-desmeds
+    - des-y6utils
     - meds
     - ngmix
     - click
