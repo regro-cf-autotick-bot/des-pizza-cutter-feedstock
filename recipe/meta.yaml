@@ -1,5 +1,5 @@
 {% set name = "des-pizza-cutter" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/beckermr/pizza-cutter/archive/{{ version }}.tar.gz
-  sha256: 5c18511a8951b631d31313a9d6c8abf8732ef74dbf24426dbb718782bab578bc
+  sha256: 824201b714faa25d879384d84570075ad305fc8bad445cc9c573d5ee072c0d63
 
 build:
   number: 0
