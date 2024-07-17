@@ -33,7 +33,7 @@ requirements:
   host:
     - python
     - pip
-    - setuptools_scm <6.1
+    - setuptools_scm
     - setuptools_scm_git_archive
   run:
     - python
