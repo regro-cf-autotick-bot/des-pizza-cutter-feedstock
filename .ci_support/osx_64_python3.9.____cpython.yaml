@@ -9,6 +9,7 @@ channel_targets:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 piff:
+- cf
 - eastlake
 pin_run_as_build:
   python:
