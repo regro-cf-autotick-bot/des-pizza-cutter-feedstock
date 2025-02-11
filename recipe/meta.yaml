@@ -3,7 +3,7 @@
 
 {% set piff = piff or 'cf' %}
 
-{% set build = 2 %}
+{% set build = 3 %}
 {% if piff == 'cf' %}
 # prioritize piff package
 {% set build = build + 100 %}
